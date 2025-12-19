@@ -325,8 +325,7 @@
     <div class="header-curve">
         <div class="d-flex justify-content-between align-items-center">
             <div>
-                <h6 class="text-muted font-weight-bold mb-1" style="font-size: 0.8rem; letter-spacing: 1px;">VET
-                    HOSPITAL</h6>
+                <h6 class="text-muted font-weight-bold mb-1" style="font-size: 0.8rem; letter-spacing: 1px;">Animalia Vet Clinic</h6>
                 <h4 class="font-weight-800 text-dark mb-0">Hi, {{ Auth::user()->name }} <i
                         class="fas fa-paw text-warning ml-1"></i></h4>
             </div>
