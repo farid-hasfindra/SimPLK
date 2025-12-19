@@ -338,7 +338,7 @@
     </div>
 
     <!-- Content -->
-    <div class="mt-0">
+    <div class="mt-3">
         @yield('content')
     </div>
 
