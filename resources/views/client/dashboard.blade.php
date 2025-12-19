@@ -103,7 +103,7 @@
                             <i
                                 class="fas {{ $hewan->jenis_hewan == 'Kucing' ? 'fa-cat' : ($hewan->jenis_hewan == 'Anjing' ? 'fa-dog' : 'fa-dove') }} text-white-50 icon-bg"></i>
                             <h5 class="text-white font-weight-bold mb-0">{{ $hewan->nama_hewan }}</h5>
-                            <small class="text-white-90">{{ $hewan->jenis_hewan }} &bull; {{ $hewan->ras ?? '-' }}</small>
+                            <small class="text-white opacity-75">{{ $hewan->jenis_hewan }} &bull; {{ $hewan->ras ?? '-' }}</small>
                         </div>
                         <div class="pet-card-body">
                             <div class="d-flex justify-content-between mb-2">
